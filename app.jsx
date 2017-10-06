@@ -35,9 +35,9 @@ class Teachers extends React.Component {
         <h2>Teachers</h2>
         <ul className='group'>
           {
-            TeacherList.map((item, index) => {
+            TeacherList.map(item => {
               return (
-                <li className='teacher' key={item.id} style={{ marginLeft: index % 2 ? '2.54%' : '' }}>
+                <li className='teacher' key={item.id}>
                   <img className='teacher-img' src={item.src} alt='teacher' />
                   <h3>{item.name}</h3>
                   <p>{item.description}</p>
