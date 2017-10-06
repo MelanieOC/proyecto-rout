@@ -106,39 +106,81 @@ header {
   width: 70px;
 }
 
-@media (min-width: 769px){
+
+@media (min-width: 0) and (max-width: 768px) { 
+  body {
+    padding-top: .8em;
+  }
+  .home a {
+    border-color: transparent;
+  }
+   .icn-logo {
+     display: block;
+     width: 100%;
+     text-align: center;
+     padding-bottom: 4px;
+   }
+   .main-nav a {
+     border-top: 2px solid transparent;
+     border-bottom: 2px solid transparent;
+   }
+   .main-nav a:hover {
+     border-color: rgba(0,0,0, .1);
+   }
+   .courses h2 {
+     margin-bottom: 0;
+   }
+   .course-nav {
+     display: block;
+     margin: 1.5em 0 3.2em;
+   }
+}
+@media (min-width: 769px) {
   body {
     padding-top: 3em;
   }
-  .icono {
-    margin-right: auto;
-    padding: 0 2em;
+  
+  .media img,
+  .media > div,
+  .teacher {
+    float: left;
   }
-  .main-nav, header {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .main-nav a {
-    padding: 1.25em 1.5em;
-  }
+  .media > div {
+    width: 85.1%;
+    margin-left: 1.5em;
+  } 
   .teacher {
     width: 48.73%;
     margin-bottom: 1.5em;
   }
-  .media>div, .media img, .teacher {
-    float: left;
+  .teacher + .teacher {
+    margin-left: 2.54%;
   }
-  .courses h2 {
-    float: left;
+  .teacher:nth-child(2n+3) {
+    clear: left;
+    margin-left: 0;
+  }
+  .icono{
+    margin-right: auto;
+    padding: 0 2em;
+  }
+  header,
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-nav a {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    padding: 1.25em 1.5em;
+  }
+  .main-nav a:hover {
+    border-color: rgba(0,0,0, .1);
   }
   .course-nav {
     float: right;
-  }
-  .course-nav li {
-    display: inline-block;
-  }
-  .media>div {
-    width: 85.1%;
-    margin-left: 1.5em;
+  } 
+  .courses h2 {
+    float: left;
   }
 }
