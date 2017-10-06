@@ -155,7 +155,7 @@ class App extends React.Component {
               <a className={Child === Home ? 'active' : ''} href="#/home" >Home</a>
             </li>
             <li>
-              <a  className={Child === About ? 'active' : ''} href="#/about">About</a>
+              <a className={Child === About ? 'active' : ''} href="#/about">About</a>
             </li>
             <li>
               <a className={Child === Teachers ? 'active' : ''} href="#/teachers" >Teachers</a>

@@ -38,13 +38,13 @@ hr {
   margin: 0 auto;
   background: white;
   padding-bottom: 15px;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 3px rgba(0,0,0, .1);
   overflow: hidden;
 }
 header {
   background: #edeff0;
-  margin-bottom: 2em;
+  margin-bottom: 20px;
 }
 .main-content {
   padding: 1em 2em;
@@ -201,10 +201,8 @@ header {
   }
   header,
   .main-nav {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .main-nav a {
     border-left: 3px solid transparent;
