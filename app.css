@@ -31,16 +31,13 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
-/* ================================= 
-  LAYOUT & PAGE STYLES
-==================================== */
+/* estilo del contenedor*/
 
 .content {
-  width: 95%;
-  max-width: 780px;
-  padding-bottom: 15px;
+  width: 800px;
   margin: 0 auto;
-  background: #fff;
+  background: white;
+  padding-bottom: 15px;
   border-radius: 20px;
   box-shadow: 0 3px rgba(0,0,0, .1);
   overflow: hidden;
@@ -68,7 +65,7 @@ header {
 }
 .teacher-img {
   width: 100%;
-  border-radius: .3em;
+  border-radius: 10px;
 }
 .not-found {
   text-align: center;
@@ -83,8 +80,6 @@ header {
   text-transform: uppercase;
   display: block;
   padding: 1em;
-  -webkit-transition: .2s;
-  -o-transition: .2s;
   transition: .2s;
 }
 .main-nav a:hover,

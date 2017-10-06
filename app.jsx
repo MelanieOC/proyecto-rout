@@ -38,9 +38,9 @@ class Teachers extends React.Component {
             TeacherList.map((item, index) => {
               return (
                 <li className='teacher' key={item.id} style={{ marginLeft: index % 2 ? '2.54%' : '' }}>
-                  <img className='teacher-img' src={item.img_src} alt='teacher' />
+                  <img className='teacher-img' src={item.src} alt='teacher' />
                   <h3>{item.name}</h3>
-                  <p>{item.bio}</p>
+                  <p>{item.description}</p>
                 </li>
               );
             })
@@ -84,7 +84,7 @@ class Courses extends React.Component {
             CurrentList.map(item => {
               return (
                 <li className='course media group' key={item.id} >
-                  <img className='course-img' src={item.img_src} alt='course' />
+                  <img className='course-img' src={item.src} alt='course' />
                   <div>
                     <h3>{item.title}</h3>
                     <p>{item.description}</p>
