@@ -1,7 +1,5 @@
-/* WEB FONTS */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
-
+@import url('https://fonts.googleapis.com/css?family=Mukta');
 /* estilos generales */
 
 * {
@@ -12,7 +10,7 @@
 body {
   color: rgba(87, 99, 102, 0.9);
   background: #5DCF7E;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 h2 {
   color: #404040;
