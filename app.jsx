@@ -70,7 +70,7 @@ class Courses extends React.Component {
         break;
     }
     return (
-      <div className="main-content">
+      <div className="main-content courses">
         <div className="course-header group">
           <h2>Courses</h2>
           <ul className="course-nav">
@@ -147,7 +147,7 @@ class App extends React.Component {
     return (
       <div className='content'>
         <header>
-          <span className='icn-logo'>
+          <span className='icono'>
             <i className="material-icons">code</i>
           </span>
           <ul className='main-nav'>
